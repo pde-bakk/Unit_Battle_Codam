@@ -6,7 +6,7 @@
 #    By: saladuit <safoh@student.codam.nl>            +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/04/13 21:33:38 by saladuit      #+#    #+#                  #
-#    Updated: 2022/06/01 16:30:30 by khuang        ########   odam.nl          #
+#    Updated: 2022/06/01 16:34:45 by dmalacov      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ PROJECT				:=	Unit-Battle
 NAME				:=	bowling_game
 
 MAIN 				:=	main.c
-SRCS				=	bowling.c
+SRCS				=	input_check.c bowling.c
 UNIT_SRCS			=	unit_test.c
 
 
